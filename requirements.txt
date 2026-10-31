@@ -5,5 +5,5 @@ folium==0.20.0
 streamlit-folium==0.25.3
 plotly==6.3.1
 joblib==1.5.0
-scikit-learn==1.6.1
+scikit-learn==1.8.0.
 shapely==2.1.2

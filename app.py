@@ -31,7 +31,7 @@ is_light = st.session_state.light_mode
 # Variabel dinamis berdasarkan tema
 CHART_FONT_COLOR = "#0f172a" if is_light else "#e2e8f0"
 PLOTLY_TEMPLATE = "plotly_white" if is_light else "plotly_dark"
-MAP_TILES = 'CartoDB positron' if is_light else 'CartoDB dark_matter'
+MAP_TILES = 'OpenStreetMap'
 MAP_BG = '#ffffff' if is_light else '#1e293b'
 MAP_TEXT = '#0f172a' if is_light else '#f8fafc'
 MAP_BORDER = '#e2e8f0' if is_light else '#334155'
